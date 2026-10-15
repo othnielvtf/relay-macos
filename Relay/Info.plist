@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleDevelopmentRegion</key><string>en</string>
+  <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+  <key>CFBundleName</key><string>Relay</string>
+  <key>CFBundleDisplayName</key><string>Relay</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.1.1</string>
+  <key>CFBundleVersion</key><string>2</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>LSMinimumSystemVersion</key><string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+  <key>LSApplicationCategoryType</key><string>public.app-category.productivity</string>
+  <key>LSUIElement</key><true/>
+  <key>NSPrincipalClass</key><string>NSApplication</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSCameraUsageDescription</key><string>Relay uses your camera for your live preview and webcam overlay in recordings saved on this Mac.</string>
+  <key>NSMicrophoneUsageDescription</key><string>Relay records microphone narration when you enable your microphone. Videos stay on this Mac.</string>
+  <key>NSAudioCaptureUsageDescription</key><string>Relay includes sound from the screen or app you record when you enable screen audio.</string>
+  <key>NSSupportsAutomaticTermination</key><false/>
+  <key>NSSupportsSuddenTermination</key><false/>
+</dict></plist>

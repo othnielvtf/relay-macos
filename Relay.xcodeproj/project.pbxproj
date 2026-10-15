@@ -1,0 +1,47 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		1B23BA969492D9EF31CFD5DB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaptureController.swift"; sourceTree = "<group>"; };
+		F716F4A00F380CA374BE7A45 = { isa = PBXBuildFile; fileRef = 1B23BA969492D9EF31CFD5DB; };
+		D1AFB49B9EBB62E2A4104782 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaptureModels.swift"; sourceTree = "<group>"; };
+		0B8CF68F7FB8551544C2D809 = { isa = PBXBuildFile; fileRef = D1AFB49B9EBB62E2A4104782; };
+		EC06272DEE91274BE08B812A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LibraryStore.swift"; sourceTree = "<group>"; };
+		3FC5CBA325865A2F8DE4B97B = { isa = PBXBuildFile; fileRef = EC06272DEE91274BE08B812A; };
+		6ADCD46E664447822C780357 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Overlays.swift"; sourceTree = "<group>"; };
+		10E0871C71A9CEF7DC8E70FC = { isa = PBXBuildFile; fileRef = 6ADCD46E664447822C780357; };
+		7C0843C790550B8755036EFA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordingWriter.swift"; sourceTree = "<group>"; };
+		1A8D146A935C427789F89182 = { isa = PBXBuildFile; fileRef = 7C0843C790550B8755036EFA; };
+		508460A52B516CF58C53A94D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RelayApp.swift"; sourceTree = "<group>"; };
+		70DC93B312C6522F4FCBF03C = { isa = PBXBuildFile; fileRef = 508460A52B516CF58C53A94D; };
+		E0A334B325080F86BC179AEF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudioView.swift"; sourceTree = "<group>"; };
+		D99957AC6D3C9BEEF0B482D7 = { isa = PBXBuildFile; fileRef = E0A334B325080F86BC179AEF; };
+		2D22D9614B3C9B1C7143D111 = { isa = PBXFileReference; lastKnownFileType = image.icns; path = "AppIcon.icns"; sourceTree = "<group>"; };
+		0EB551204EF8BF7A54C430CB = { isa = PBXBuildFile; fileRef = 2D22D9614B3C9B1C7143D111; };
+		DB90DF265F61579E4E014682 = { isa = PBXFileReference; lastKnownFileType = image.png; path = "relay-camera-illustration.png"; sourceTree = "<group>"; };
+		950F0A44B1DCFC4E301EBFF0 = { isa = PBXBuildFile; fileRef = DB90DF265F61579E4E014682; };
+		D1457A539DAF7F58E0157F54 = { isa = PBXFileReference; lastKnownFileType = image.png; path = "relay-screen-illustration.png"; sourceTree = "<group>"; };
+		1C45293E6CD86E4F8E7B8378 = { isa = PBXBuildFile; fileRef = D1457A539DAF7F58E0157F54; };
+		67523896046CD3F0D0EFEF57 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		BB949C060C42B060A6745675 = { isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Relay.entitlements"; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0189424A5A60FED329FA868E = { isa = PBXGroup; children = (2D22D9614B3C9B1C7143D111,DB90DF265F61579E4E014682,D1457A539DAF7F58E0157F54,); path = Resources; sourceTree = "<group>"; };
+		BCE16DD0260827ECF338C787 = { isa = PBXGroup; children = (1B23BA969492D9EF31CFD5DB,D1AFB49B9EBB62E2A4104782,EC06272DEE91274BE08B812A,6ADCD46E664447822C780357,7C0843C790550B8755036EFA,508460A52B516CF58C53A94D,E0A334B325080F86BC179AEF,67523896046CD3F0D0EFEF57,BB949C060C42B060A6745675,0189424A5A60FED329FA868E,); path = Relay; sourceTree = "<group>"; };
+		FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9,); name = Products; sourceTree = "<group>"; };
+		B28B7AF69320201D1CF206EB = { isa = PBXGroup; children = (BCE16DD0260827ECF338C787,FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+		D3C3E067FC1BBCCEAA4D9313 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F716F4A00F380CA374BE7A45,0B8CF68F7FB8551544C2D809,3FC5CBA325865A2F8DE4B97B,10E0871C71A9CEF7DC8E70FC,1A8D146A935C427789F89182,70DC93B312C6522F4FCBF03C,D99957AC6D3C9BEEF0B482D7,); runOnlyForDeploymentPostprocessing = 0; };
+		ECE2D868E17AEF81A05610A3 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (0EB551204EF8BF7A54C430CB,950F0A44B1DCFC4E301EBFF0,1C45293E6CD86E4F8E7B8378,); runOnlyForDeploymentPostprocessing = 0; };
+		BEE832DE65DB5CA7507F7EF9 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		1C6332C759B35B5B3487F3CD = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; }; };
+		FAA7255682251B39E2A9E0EE = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_NAME = "Relay"; PRODUCT_BUNDLE_IDENTIFIER = "studio.relay.mac"; INFOPLIST_FILE = "Relay/Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_STYLE = "Manual"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_ENTITLEMENTS = "Relay/Relay.entitlements"; ENABLE_HARDENED_RUNTIME = "YES"; ENABLE_APP_SANDBOX = "NO"; SWIFT_VERSION = "5.0"; MACOSX_DEPLOYMENT_TARGET = "15.0"; SWIFT_STRICT_CONCURRENCY = "minimal"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; COMBINE_HIDPI_IMAGES = "YES"; SWIFT_EMIT_LOC_STRINGS = "NO"; SUPPORTED_PLATFORMS = "macosx"; DEBUG_INFORMATION_FORMAT = "dwarf"; }; };
+		8B7212A5EF49F64ACD4F072A = { isa = XCBuildConfiguration; name = Release; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; }; };
+		68120FA0DEBB83CCC432450D = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_NAME = "Relay"; PRODUCT_BUNDLE_IDENTIFIER = "studio.relay.mac"; INFOPLIST_FILE = "Relay/Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_STYLE = "Manual"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_ENTITLEMENTS = "Relay/Relay.entitlements"; ENABLE_HARDENED_RUNTIME = "YES"; ENABLE_APP_SANDBOX = "NO"; SWIFT_VERSION = "5.0"; MACOSX_DEPLOYMENT_TARGET = "15.0"; SWIFT_STRICT_CONCURRENCY = "minimal"; SWIFT_OPTIMIZATION_LEVEL = "-O"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; COMBINE_HIDPI_IMAGES = "YES"; SWIFT_EMIT_LOC_STRINGS = "NO"; SUPPORTED_PLATFORMS = "macosx"; CODE_SIGN_INJECT_BASE_ENTITLEMENTS = "NO"; DEPLOYMENT_POSTPROCESSING = "YES"; STRIP_INSTALLED_PRODUCT = "YES"; STRIP_STYLE = "all"; COPY_PHASE_STRIP = "YES"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; };
+		862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (1C6332C759B35B5B3487F3CD,8B7212A5EF49F64ACD4F072A,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (FAA7255682251B39E2A9E0EE,68120FA0DEBB83CCC432450D,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (D3C3E067FC1BBCCEAA4D9313,BEE832DE65DB5CA7507F7EF9,ECE2D868E17AEF81A05610A3,); buildRules = (); dependencies = (); name = Relay; productName = Relay; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
+		98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = { 0E8A3AD980EC179856012B7E = { CreatedOnToolsVersion = 27.0; }; }; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,Base,); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

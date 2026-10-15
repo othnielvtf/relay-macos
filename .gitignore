@@ -1,0 +1,10 @@
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.app/
+*.dSYM/
+*.mp4
+*.mov
+*.zip
