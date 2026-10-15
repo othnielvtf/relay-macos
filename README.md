@@ -2,7 +2,7 @@
 
 Record your screen, camera, and voice with a native Mac app. Turn walkthroughs, quick updates, and big ideas into videos that stay on your Mac.
 
-**[Download Relay 0.1.1 for Apple Silicon](https://github.com/othnielvtf/relay-macos/releases/latest)** · macOS 15 or later
+**[Download Relay 0.1.1 for Apple Silicon](https://github.com/othnielvtf/relay-macos/releases/tag/v0.1.1)** · macOS 15 or later
 
 The release is a locally signed development build and is **not notarized**. macOS may block a downloaded build. You can also build from source in Xcode; a paid developer account is not required for a local build.
 
